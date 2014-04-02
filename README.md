@@ -1,4 +1,4 @@
-testng-thread-example
+testng-report-example
 =====================
 
 Example of generating a report while multi-threading in TestNG.

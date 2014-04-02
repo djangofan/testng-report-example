@@ -1,8 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Thread Demo" verbose="2" parallel="classes" thread-count="5" data-provider-thread-count="20">
+<suite name="Thread Demo" verbose="2" parallel="classes" thread-count="5" >
+	<listeners>
+		<listener class-name="qa.test.JenkinsHTMLReport" />
+		<listener class-name="qa.test.RetryListener"></listener>
+	</listeners>
 	<test name="Regression1">
 		<packages>
-			<package name="qa.test1" />
+			<package name="qa.tests" />
 		</packages>
 	</test>
 </suite> 
