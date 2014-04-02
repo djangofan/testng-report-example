@@ -11,7 +11,7 @@ import qa.test.TestBase;
 public class Test4 extends TestBase {	
 
 	@Test( dataProviderClass = Data.class, dataProvider = "csv" )
-	public void testCsv( String name, HashMap<String,String> rowData ) {
+	public void testCsv4( String name, HashMap<String,String> rowData ) {
 		rowData.put("threadId", Long.toString( threadId ) );
 		rowData.put( "threadName",  threadName );
 		logger.info( "Row: " + rowData );

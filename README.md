@@ -15,3 +15,5 @@ Download the .zip of this project and execute with Maven, with a commmand like t
 
 Other Notes
 ==================
+
+See the **target/surefire-reports/jenkins-report.html** to see the test results.
