@@ -1,10 +1,17 @@
 testng-thread-example
 =====================
 
-Example of threading in TestNG
+Example of generating a report while multi-threading in TestNG.
 
 
-to-do
-=====
+How To Run
+============
 
-Show customized report output and retry listener and the effect it has.
+Download the .zip of this project and execute with Maven, with a commmand like this:
+
+    mvn.bat clean compile test-compile test
+
+
+
+Other Notes
+==================
